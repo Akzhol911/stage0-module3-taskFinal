@@ -13,5 +13,6 @@ public class DigitsSumCalculator {
         number = number - reminder;
         sum = sum + number/1000;
         System.out.println(sum);
+
     }
 }
