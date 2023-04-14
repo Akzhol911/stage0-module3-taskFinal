@@ -10,8 +10,8 @@ public class DigitsSumCalculator {
         number = number - reminder;
         reminder = number%1000;
         sum = sum + reminder/100;
-        number = number - reminder/1000;
-        sum = sum + number;
+        number = number - reminder;
+        sum = sum + number/1000;
         System.out.println(sum);
     }
 }
