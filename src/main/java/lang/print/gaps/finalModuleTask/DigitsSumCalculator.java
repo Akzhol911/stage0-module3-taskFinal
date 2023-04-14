@@ -6,10 +6,10 @@ public class DigitsSumCalculator {
         int sum = reminder;
         number = number - reminder;
         reminder = number%100;
-        sum = sum + reminder;
+        sum = sum + reminder/10;
         number = number - reminder;
         reminder = number%1000;
-        sum = sum + reminder;
+        sum = sum + reminder/100;
         number = number - reminder;
         sum = sum + number;
         System.out.println(sum);
